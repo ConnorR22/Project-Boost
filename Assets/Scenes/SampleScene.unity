@@ -124,26 +124,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &308374009 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1896247022705218, guid: 02f0d0e6ff364c34aacd8e4406c64b7e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1607837319}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &308374013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 308374009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60dcec8336cafd845ba63a7c04a840c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rocketThrust: 150
-  rocketRotation: 100
 --- !u!1001 &786366744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -305,7 +285,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4499999893091968, guid: 291b89eb3b3934e47801c14098c8d706, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -36.66
+      value: -7.99
       objectReference: {fileID: 0}
     - target: {fileID: 4499999893091968, guid: 291b89eb3b3934e47801c14098c8d706, type: 3}
       propertyPath: m_LocalRotation.w
@@ -346,7 +326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4331454501954078, guid: 02f0d0e6ff364c34aacd8e4406c64b7e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.53
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 4331454501954078, guid: 02f0d0e6ff364c34aacd8e4406c64b7e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -368,9 +348,7 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114322543095034344, guid: 02f0d0e6ff364c34aacd8e4406c64b7e, type: 3}
-    - {fileID: -421730294121525045, guid: 02f0d0e6ff364c34aacd8e4406c64b7e, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02f0d0e6ff364c34aacd8e4406c64b7e, type: 3}
 --- !u!1001 &1972327374
 PrefabInstance:
