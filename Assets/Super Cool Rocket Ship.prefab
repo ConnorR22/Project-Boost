@@ -13,14 +13,13 @@ GameObject:
   - component: {fileID: 136417663161351538}
   - component: {fileID: 23193039446355942}
   - component: {fileID: 54189677745586128}
-  - component: {fileID: 138179334396430026}
   m_Layer: 0
   m_Name: Rocket Cockpit (Outline)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4639044997922426
 Transform:
   m_ObjectHideFlags: 0
@@ -29,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043172957981838}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.436, y: 0.81700003, z: -0.102}
+  m_LocalPosition: {x: -0.014192939, y: 0.2660004, z: -0.475}
   m_LocalScale: {x: 0.5, y: 0.029309358, z: 0.50000024}
   m_Children: []
   m_Father: {fileID: 4331454501954078}
@@ -115,21 +114,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!138 &138179334396430026
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043172957981838}
-  m_ConnectedBody: {fileID: 54955039852505172}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1126522967169090
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,7 +141,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1126522967169090}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.435807, y: 1.419, z: 0.4158717}
+  m_LocalPosition: {x: -0.013999939, y: 0.8680004, z: 0}
   m_LocalScale: {x: 1.05, y: 0.1, z: 1.05}
   m_Children: []
   m_Father: {fileID: 4331454501954078}
@@ -254,7 +238,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181616902641826}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.43580702, y: 0.485, z: 0.41587174}
+  m_LocalPosition: {x: -0.013999969, y: -0.06599963, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4331454501954078}
@@ -351,7 +335,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1280318272122012}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.435807, y: 1.295, z: 0.4158717}
+  m_LocalPosition: {x: -0.014, y: 0.744, z: 0}
   m_LocalScale: {x: 1, y: 2.2970352, z: 1}
   m_Children: []
   m_Father: {fileID: 4331454501954078}
@@ -636,7 +620,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447468437231502}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.8, y: 0.23600006, z: 0.409}
+  m_LocalPosition: {x: -0.37819296, y: -0.31499958, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4929453078107980}
@@ -671,7 +655,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1455197002271726}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.169, y: -0.593, z: 0.41587174}
+  m_LocalPosition: {x: 0.25280705, y: -1.1439996, z: 0}
   m_LocalScale: {x: 0.41369, y: 0.05050883, z: 0.41369}
   m_Children: []
   m_Father: {fileID: 4331454501954078}
@@ -768,7 +752,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553919958637344}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.7, y: -0.593, z: 0.41587174}
+  m_LocalPosition: {x: -0.27819294, y: -1.1439996, z: 0}
   m_LocalScale: {x: 0.41368833, y: 0.05050883, z: 0.41368833}
   m_Children: []
   m_Father: {fileID: 4331454501954078}
@@ -961,7 +945,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681764954872610}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.435807, y: -0.469, z: 0.4158717}
+  m_LocalPosition: {x: -0.013999939, y: -1.0199996, z: 0}
   m_LocalScale: {x: 1.05, y: 0.099999994, z: 1.05}
   m_Children: []
   m_Father: {fileID: 4331454501954078}
@@ -1044,14 +1028,13 @@ GameObject:
   - component: {fileID: 136790675447717088}
   - component: {fileID: 23928370564899504}
   - component: {fileID: 54778907256415312}
-  - component: {fileID: 138610781673036020}
   m_Layer: 0
   m_Name: Rocket Cockpit (Window)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4271905356509088
 Transform:
   m_ObjectHideFlags: 0
@@ -1060,7 +1043,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720388028626274}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.436, y: 0.81700003, z: -0.136}
+  m_LocalPosition: {x: -0.014192939, y: 0.2660004, z: -0.482}
   m_LocalScale: {x: 0.4, y: 0.029310014, z: 0.4}
   m_Children: []
   m_Father: {fileID: 4331454501954078}
@@ -1146,21 +1129,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!138 &138610781673036020
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720388028626274}
-  m_ConnectedBody: {fileID: 54189677745586128}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1721103736338830
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,7 +1153,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721103736338830}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.093, y: 0.23600006, z: 0.409}
+  m_LocalPosition: {x: 0.32880706, y: -0.31499958, z: 0}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children:
   - {fileID: 4719152044549590}
@@ -1316,7 +1284,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1809362102476690}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.432, y: -0.638, z: 0.42}
+  m_LocalPosition: {x: -0.0101929605, y: -1.1889997, z: 0}
   m_LocalScale: {x: 0.85, y: 0.012078059, z: 0.8499996}
   m_Children: []
   m_Father: {fileID: 4331454501954078}
@@ -1395,7 +1363,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4331454501954078}
   - component: {fileID: 54955039852505172}
-  - component: {fileID: 308374013}
+  - component: {fileID: 988483883}
+  - component: {fileID: 988483882}
+  - component: {fileID: 988483884}
+  - component: {fileID: 988483885}
   m_Layer: 0
   m_Name: Super Cool Rocket Ship
   m_TagString: Untagged
@@ -1444,7 +1415,131 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 56
   m_CollisionDetection: 0
---- !u!114 &308374013
+--- !u!65 &988483883
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896247022705218}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.99999994, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!82 &988483882
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896247022705218}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &988483884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896247022705218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e4865abed3eea8409c6d194c9e6ba47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAlive: 1
+  crashShip: {fileID: 0}
+  finishLevel: {fileID: 0}
+--- !u!114 &988483885
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1456,5 +1551,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60dcec8336cafd845ba63a7c04a840c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainEngine: {fileID: 0}
   rocketThrust: 150
-  rocketRotation: 100
+  rocketRotation: 1000
