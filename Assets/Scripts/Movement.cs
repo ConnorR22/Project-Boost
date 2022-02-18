@@ -11,7 +11,7 @@ public class Movement : MonoBehaviour
 
     [SerializeField] AudioClip mainEngine;
 
-    [SerializeField] float rocketThrust = 150f;
+    [SerializeField] float rocketThrust = 1500f;
     [SerializeField] float rocketRotation = 1000f;
 
 
