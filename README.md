@@ -11,3 +11,5 @@ Features to add:
 - Particle effects with rocket interactions
 - Number of player attempts before restart
 - Scoring system for completed run
+
+P.s - Project code is located on the master branch (still trying to figure out merging when multiple collaborators are on a project)
