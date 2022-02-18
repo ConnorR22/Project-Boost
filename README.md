@@ -1,16 +1,13 @@
 # Project-Boost
 A Rocket Ship obstacle course with level progression
 
-This game is a 2D dungeon crawler pulling inspiration from popular games like The binding of Isaac. 
+The goal is to navigate the player rocket ship from one platform to the goal platform,
+avoiding obstacles and crashing. 
 
-The goal is to complete a series of dungeons through randomly selected levels, 
-collecting gold and power ups to fight progressively harder levels. 
-
-This project involves pixel shaders, level design with tilesets, dynamic camera following, player progression and inventory systems.
+This project involves basic level design, basic player physics, and audio and visual FX.
 
 Features to add:
-- Enemy AI
-- Progressing difficulty
-- Additional weapons/power
-- NPC interaction
-- Player level system
+- More levels
+- Particle effects with rocket interactions
+- Number of player attempts before restart
+- Scoring system for completed run
